@@ -40,9 +40,7 @@
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-prettier": "^5.0.0",
-    "husky": "^9.0.11",
     "jest": "^29.5.0",
-    "lint-staged": "^15.2.2",
     "prettier": "^3.0.0",
     "prettier-plugin-organize-imports": "^3.2.4",
     "source-map-support": "^0.5.21",
@@ -70,14 +68,5 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
-  },
-  "lint-staged": {
-    "*.{ts}": [
-      "prettier --write",
-      "eslint --fix"
-    ],
-    "*.json": [
-      "prettier --write"
-    ]
   }
 }
